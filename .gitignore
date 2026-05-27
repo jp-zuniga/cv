@@ -1,0 +1,7 @@
+# rendercv bytecode
+__pycache__
+
+# nix
+.direnv
+
+.tmp

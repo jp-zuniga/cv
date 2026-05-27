@@ -1,0 +1,12 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json": [
+      "file:///home/jaq/dev/cv/src/cv-english.yml",
+      "file:///home/jaq/dev/cv/src/cv-espa%C3%B1ol.yml",
+      "file:///home/jaq/dev/cv/src/design.yml",
+      "file:///home/jaq/dev/cv/src/settings.yml"
+    ]
+  }
+}
