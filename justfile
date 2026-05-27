@@ -17,13 +17,13 @@ rename-and-move prefix:
     done
 
 [private]
-render lang:
+render lang theme args:
     #!/usr/bin/env bash
 
-    rendercv render src/cv-{{lang}}.yml -d src/design.yml -s src/settings.yml
+    rendercv render src/cv-{{lang}}.yml -s src/settings.yml --design.theme {{theme}} {{args}}
     typst compile assets/.tmp/*.typ --format png > /dev/null 2>&1
-    just rename-and-move {{lang}}
+    just rename-and-move "{{lang}}-{{theme}}"
 
-build:
-    @just render english
-    @just render español
+build theme="moderncv" *args="":
+    @just render english {{theme}} {{args}}
+    @just render español {{theme}} {{args}}
