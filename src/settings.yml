@@ -1,0 +1,13 @@
+settings:
+  render_command:
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_pdf: false
+    dont_generate_typst: false
+    dont_generate_png: true
+
+    html_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.html
+    markdown_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.md
+    pdf_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.pdf
+    png_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.png
+    typst_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.typ

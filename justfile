@@ -1,4 +1,4 @@
-set quiet := true
+set quiet
 
 [private]
 default:
@@ -13,17 +13,16 @@ rename-and-move prefix:
 
         filename=$(basename "$file")
 
-        mv "$file" "assets/{{prefix}}-$filename"
+        mv "$file" "assets/{{ prefix }}-$filename"
     done
 
 [private]
-render lang theme args:
+render lang theme *args:
     #!/usr/bin/env bash
 
-    rendercv render src/cv-{{lang}}.yml -s src/settings.yml --design.theme {{theme}} {{args}}
-    typst compile assets/.tmp/*.typ --format png > /dev/null 2>&1
-    just rename-and-move "{{lang}}-{{theme}}"
+    rendercv render src/cv-{{ lang }}.yml -s src/settings.yml --design.theme {{ theme }} {{ args }}
+    just rename-and-move "cv-{{ lang }}-{{ theme }}"
 
 build theme="moderncv" *args="":
-    @just render english {{theme}} {{args}}
-    @just render español {{theme}} {{args}}
+    @just render english {{ theme }} {{ args }}
+    @just render español {{ theme }} {{ args }}
