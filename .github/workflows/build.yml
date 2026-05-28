@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  build-cv:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
           install_url: https://nixos.org/nix/install
 
       - name: build
-        run: nix develop --command "just build"
+        run: nix develop --command bash -c "just build"
 
       - name: commit && push changes
         run: |
