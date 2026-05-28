@@ -11,10 +11,12 @@ cv:
   sections:
     sobre_mí:
       - >
-        Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrollo backend.
-        Me apasiona crear herramientas innovadoras, con énfasis en la experiencia del usuario final.
-        Me gusta entender a fondo los problemas, explorar nuevas tecnologías y aprender de forma autónoma a través de proyectos.
-        He trabajado en soporte técnico y en proyectos de software complejos, fortaleciendo mi pensamiento crítico,
+        Estudiante de Ingeniería en Sistemas de Información con
+        un enfoque en desarrollo backend. Me apasiona crear herramientas innovadoras,
+        con énfasis en la experiencia del usuario final. Me gusta entender a fondo
+        los problemas, explorar nuevas tecnologías y aprender de forma autónoma
+        a través de proyectos. He trabajado en soporte técnico y en proyectos
+        de software complejos, fortaleciendo mi pensamiento crítico,
         la comunicación con usuarios y el trabajo en equipo.
 
     educación:
@@ -38,8 +40,14 @@ cv:
         start_date: 2025-02
         end_date: 2025-08
         highlights:
-          - Apoyo al área de tecnología y soporte técnico, resolución de incidencias y atención a usuarios.
-          - Destacando responsabilidad, trabajo en equipo, pensamiento analítico y trato interpersonal profesional.
+          - >
+            Apoyo al área de tecnología y soporte técnico,
+            resolución de incidencias y atención a usuarios.
+          - >
+            Destacando responsabilidad,
+            trabajo en equipo,
+            pensamiento analítico y
+            trato interpersonal profesional.
 
     proyectos:
       - position: Artemis Devs
@@ -58,12 +66,22 @@ cv:
         end_date: 2025-11
         highlights:
           - Desarrollo de un API con Django, DRF y PostgreSQL para una aplicación nutricional.
-          - Implementación de búsqueda avanzada de recetas, recomendador por ingredientes, RBAC y autenticación con Google Sign-In.
+          - >
+            Implementación de
+            búsqueda avanzada de recetas,
+            recomendador por ingredientes,
+            RBAC y
+            autenticación con Google Sign-In.
 
     habilidades:
       - bullet: Aprendiz rápido y autónomo.
       - bullet: Capacidad versátil para resolver problemas.
       - bullet: Pensador crítico y creativo.
+
+    idiomas:
+      - bullet: Español
+      - bullet: Inglés **(C2)**
+      - bullet: Francés **(B2)**
 
     lenguajes_de_programación:
       - bullet: Python
@@ -73,28 +91,6 @@ cv:
       - bullet: Rust
       - bullet: SQL
       - bullet: Nix
-
-    idiomas:
-      - bullet: Español
-      - bullet: Inglés
-      - bullet: Francés
-
-    exámenes_estandarizados:
-      - name: TOEFL iBT
-        date: "114/120"
-        highlights:
-          - "Comprensión Lectora: **30/30**"
-          - "Comprensión Auditiva: **29/30**"
-          - "Expresión Escrita: **25/30**"
-          - "Expresión Oral: **30/30**"
-
-      - name: DELF B1
-        date: "74/100"
-        highlights:
-          - "Comprensión Lectora: **17/25**"
-          - "Comprensión Auditiva: **22/25**"
-          - "Expresión Escrita: **16/25**"
-          - "Expresión Oral: **19/25**"
 
 locale:
   language: spanish

@@ -10,7 +10,13 @@ cv:
 
   sections:
     summary:
-      - "Information Systems Engineering student with a focus on backend development. I'm passionate about creating innovative tools with an emphasis on the end-user experience. I like to thoroughly understand problems, explore new technologies, and learn independently through projects. I've worked in technical support and on complex software projects, strengthening my critical thinking, user communication, and teamwork skills."
+      - >
+        Information Systems Engineering student with a focus on backend development.
+        I'm passionate about creating innovative tools with an emphasis
+        on the end-user experience. I like to thoroughly understand problems,
+        explore new technologies, and learn independently through projects.
+        I've worked in technical support and on complex software projects,
+        strengthening my critical thinking, user communication, and teamwork skills.
 
     education:
       - institution: Universidad Americana
@@ -32,8 +38,15 @@ cv:
         start_date: 2025-02
         end_date: 2025-08
         highlights:
-          - Provided support for the IT and tech-support area, handling incident resolution and user assistance.
-          - Demonstrated responsibility, teamwork, analytical thinking, and professional interpersonal skills.
+          - >
+            Provided support for the IT and tech-support area,
+            handling incident resolution and user assistance.
+          - >
+            Demonstrated
+            responsibility,
+            teamwork,
+            analytical thinking, and
+            professional interpersonal skills.
 
     projects:
       - name: Artemis Devs
@@ -52,12 +65,22 @@ cv:
         end_date: 2025-11
         highlights:
           - Developed an API using Django, DRF, and PostgreSQL for a nutritional app.
-          - Implemented advanced recipe search, ingredient-based recommendations, RBAC, and Google Sign-In authentication.
+          - >
+            Implemented
+            advanced recipe search,
+            ingredient-based recommendations,
+            RBAC, and
+            Google Sign-In authentication.
 
     habilidades:
       - bullet: Fast and independent learner.
       - bullet: Versatile problem solver.
       - bullet: Critical and creative thinker.
+
+    idiomas:
+      - bullet: Spanish
+      - bullet: English **(C2)**
+      - bullet: French **(B2)**
 
     lenguajes_de_programación:
       - bullet: Python
@@ -67,28 +90,6 @@ cv:
       - bullet: Rust
       - bullet: SQL
       - bullet: Nix
-
-    idiomas:
-      - bullet: Spanish
-      - bullet: English
-      - bullet: French
-
-    standardized_tests:
-      - name: TOEFL iBT
-        date: "114/120"
-        highlights:
-          - "Reading: **30/30**"
-          - "Listening: **29/30**"
-          - "Writing: **25/30**"
-          - "Speaking: **30/30**"
-
-      - name: DELF B1
-        date: "74/100"
-        highlights:
-          - "Reading **17/25**"
-          - "Listening: **22/25**"
-          - "Writing: **16/25**"
-          - "Speaking: **19/25**"
 
 locale:
   language: english
