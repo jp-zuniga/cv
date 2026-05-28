@@ -1,10 +1,6 @@
 set quiet
 
 [private]
-default:
-    @just --list --list-heading "" --list-prefix ""
-
-[private]
 rename-and-move prefix:
     #!/usr/bin/env bash
 
