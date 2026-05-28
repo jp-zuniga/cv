@@ -100,6 +100,7 @@
 
 Information Systems Engineering student with a focus on backend development. I'm passionate about creating innovative tools with an emphasis on the end-user experience. I like to thoroughly understand problems, explore new technologies, and learn independently through projects. I've worked in technical support and on complex software projects, strengthening my critical thinking, user communication, and teamwork skills.
 
+
 == Education
 
 #education-entry(
@@ -155,6 +156,8 @@ Information Systems Engineering student with a focus on backend development. I'm
   main-column-second-row: [
     - Provided support for the IT and tech-support area, handling incident resolution and user assistance.
 
+    
+
     - Demonstrated responsibility, teamwork, analytical thinking, and professional interpersonal skills.
 
   ],
@@ -204,6 +207,14 @@ Information Systems Engineering student with a focus on backend development. I'm
 
 - Critical and creative thinker.
 
+== Idiomas
+
+- Spanish
+
+- English #strong[(C2)]
+
+- French #strong[(B2)]
+
 == Lenguajes De Programación
 
 - Python
@@ -219,55 +230,3 @@ Information Systems Engineering student with a focus on backend development. I'm
 - SQL
 
 - Nix
-
-== Idiomas
-
-- Spanish
-
-- English
-
-- French
-
-== Standardized Tests
-
-#regular-entry(
-  [
-    #strong[TOEFL iBT]
-
-  ],
-  [
-    114\/120
-
-  ],
-  main-column-second-row: [
-    - Reading: #strong[30\/30]
-
-    - Listening: #strong[29\/30]
-
-    - Writing: #strong[25\/30]
-
-    - Speaking: #strong[30\/30]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[DELF B1]
-
-  ],
-  [
-    74\/100
-
-  ],
-  main-column-second-row: [
-    - Reading #strong[17\/25]
-
-    - Listening: #strong[22\/25]
-
-    - Writing: #strong[16\/25]
-
-    - Speaking: #strong[19\/25]
-
-  ],
-)

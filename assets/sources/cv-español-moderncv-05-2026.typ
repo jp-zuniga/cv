@@ -156,6 +156,8 @@ Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrol
   main-column-second-row: [
     - Apoyo al área de tecnología y soporte técnico, resolución de incidencias y atención a usuarios.
 
+    
+
     - Destacando responsabilidad, trabajo en equipo, pensamiento analítico y trato interpersonal profesional.
 
   ],
@@ -205,6 +207,14 @@ Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrol
 
 - Pensador crítico y creativo.
 
+== Idiomas
+
+- Español
+
+- Inglés #strong[(C2)]
+
+- Francés #strong[(B2)]
+
 == Lenguajes De Programación
 
 - Python
@@ -220,55 +230,3 @@ Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrol
 - SQL
 
 - Nix
-
-== Idiomas
-
-- Español
-
-- Inglés
-
-- Francés
-
-== Exámenes Estandarizados
-
-#regular-entry(
-  [
-    #strong[TOEFL iBT]
-
-  ],
-  [
-    114\/120
-
-  ],
-  main-column-second-row: [
-    - Comprensión Lectora: #strong[30\/30]
-
-    - Comprensión Auditiva: #strong[29\/30]
-
-    - Expresión Escrita: #strong[25\/30]
-
-    - Expresión Oral: #strong[30\/30]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[DELF B1]
-
-  ],
-  [
-    74\/100
-
-  ],
-  main-column-second-row: [
-    - Comprensión Lectora: #strong[17\/25]
-
-    - Comprensión Auditiva: #strong[22\/25]
-
-    - Expresión Escrita: #strong[16\/25]
-
-    - Expresión Oral: #strong[19\/25]
-
-  ],
-)
