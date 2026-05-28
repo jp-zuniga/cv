@@ -1,0 +1,101 @@
+cv:
+  name: Joaquín Pérez
+  email: jp.zuniga.dev@gmail.com
+  phone: "+505 8499-5169"
+  social_networks:
+    - network: LinkedIn
+      username: jp-zuniga
+    - network: GitHub
+      username: jp-zuniga
+
+  sections:
+    sobre_mí:
+      - >
+        Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrollo backend.
+        Me apasiona crear herramientas innovadoras, con énfasis en la experiencia del usuario final.
+        Me gusta entender a fondo los problemas, explorar nuevas tecnologías y aprender de forma autónoma a través de proyectos.
+        He trabajado en soporte técnico y en proyectos de software complejos, fortaleciendo mi pensamiento crítico,
+        la comunicación con usuarios y el trabajo en equipo.
+
+    educación:
+      - institution: Universidad Americana
+        area: Ingeniería en Sistemas de Información
+        start_date: 2023
+
+      - institution: Universal School Pierre et Marie Curie
+        area: Secundaria
+        start_date: 2020
+        end_date: 2023
+
+    experiencia:
+      - company: Banco de Alimentos de Nicaragua
+        position: Líder Técnico
+        start_date: 2025-08
+
+      - company: Poder Capital
+        position: Asistente de Soporte Técnico
+        location: Pasantía
+        start_date: 2025-02
+        end_date: 2025-08
+        highlights:
+          - Apoyo al área de tecnología y soporte técnico, resolución de incidencias y atención a usuarios.
+          - Destacando responsabilidad, trabajo en equipo, pensamiento analítico y trato interpersonal profesional.
+
+    proyectos:
+      - position: Artemis Devs
+        company: Cofundador
+        start_date: 2024-03
+        highlights:
+          - Coordinador de una comunidad universitaria pionera de desarrollo de software.
+          - >
+            Responsable por la organización de conferencias técnicas,
+            sesiones de tutoría y promoción de una cultura de innovación
+            y colaboración entre estudiantes.
+
+      - position: Hackathon Nicaragua
+        company: Desarrollador Backend
+        start_date: 2025-06
+        end_date: 2025-11
+        highlights:
+          - Desarrollo de un API con Django, DRF y PostgreSQL para una aplicación nutricional.
+          - Implementación de búsqueda avanzada de recetas, recomendador por ingredientes, RBAC y autenticación con Google Sign-In.
+
+    habilidades:
+      - bullet: Aprendiz rápido y autónomo.
+      - bullet: Capacidad versátil para resolver problemas.
+      - bullet: Pensador crítico y creativo.
+
+    lenguajes_de_programación:
+      - bullet: Python
+      - bullet: Java
+      - bullet: C#
+      - bullet: C++
+      - bullet: Rust
+      - bullet: SQL
+      - bullet: Nix
+
+    idiomas:
+      - bullet: Español
+      - bullet: Inglés
+      - bullet: Francés
+
+    exámenes_estandarizados:
+      - name: TOEFL iBT
+        date: "114/120"
+        highlights:
+          - "Comprensión Lectora: **30/30**"
+          - "Comprensión Auditiva: **29/30**"
+          - "Expresión Escrita: **25/30**"
+          - "Expresión Oral: **30/30**"
+
+      - name: DELF B1
+        date: "74/100"
+        highlights:
+          - "Comprensión Lectora: **17/25**"
+          - "Comprensión Auditiva: **22/25**"
+          - "Expresión Escrita: **16/25**"
+          - "Expresión Oral: **19/25**"
+
+locale:
+  language: spanish
+  last_updated: "Última actualización:"

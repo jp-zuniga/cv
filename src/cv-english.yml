@@ -1,0 +1,94 @@
+cv:
+  name: Joaquín Pérez
+  email: jp.zuniga.dev@gmail.com
+  phone: "+505 8499-5169"
+  social_networks:
+    - network: LinkedIn
+      username: jp-zuniga
+    - network: GitHub
+      username: jp-zuniga
+
+  sections:
+    summary:
+      - "Information Systems Engineering student with a focus on backend development. I'm passionate about creating innovative tools with an emphasis on the end-user experience. I like to thoroughly understand problems, explore new technologies, and learn independently through projects. I've worked in technical support and on complex software projects, strengthening my critical thinking, user communication, and teamwork skills."
+
+    education:
+      - institution: Universidad Americana
+        area: Information Systems Engineering
+        start_date: 2023
+      - institution: Universal School Pierre et Marie Curie
+        area: High-School
+        start_date: 2020
+        end_date: 2023
+
+    experience:
+      - company: Banco de Alimentos de Nicaragua
+        position: Technical Lead
+        start_date: 2025-08
+
+      - company: Poder Capital
+        position: IT Assistant
+        location: Internship
+        start_date: 2025-02
+        end_date: 2025-08
+        highlights:
+          - Provided support for the IT and tech-support area, handling incident resolution and user assistance.
+          - Demonstrated responsibility, teamwork, analytical thinking, and professional interpersonal skills.
+
+    projects:
+      - name: Artemis Devs
+        company: Co-founder
+        start_date: 2024-03
+        highlights:
+          - Coordinator of a pioneering university software development community.
+          - >
+            Responsible for organizing technical conferences,
+            tutoring sessions, and fostering a culture of innovation
+            and collaboration among students.
+
+      - name: Hackathon Nicaragua
+        company: Backend Developer
+        start_date: 2025-06
+        end_date: 2025-11
+        highlights:
+          - Developed an API using Django, DRF, and PostgreSQL for a nutritional app.
+          - Implemented advanced recipe search, ingredient-based recommendations, RBAC, and Google Sign-In authentication.
+
+    habilidades:
+      - bullet: Fast and independent learner.
+      - bullet: Versatile problem solver.
+      - bullet: Critical and creative thinker.
+
+    lenguajes_de_programación:
+      - bullet: Python
+      - bullet: Java
+      - bullet: C#
+      - bullet: C++
+      - bullet: Rust
+      - bullet: SQL
+      - bullet: Nix
+
+    idiomas:
+      - bullet: Spanish
+      - bullet: English
+      - bullet: French
+
+    standardized_tests:
+      - name: TOEFL iBT
+        date: "114/120"
+        highlights:
+          - "Reading: **30/30**"
+          - "Listening: **29/30**"
+          - "Writing: **25/30**"
+          - "Speaking: **30/30**"
+
+      - name: DELF B1
+        date: "74/100"
+        highlights:
+          - "Reading **17/25**"
+          - "Listening: **22/25**"
+          - "Writing: **16/25**"
+          - "Speaking: **19/25**"
+
+locale:
+  language: english
