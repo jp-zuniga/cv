@@ -21,7 +21,7 @@ jobs:
           install_url: https://nixos.org/nix/install
 
       - name: build
-        run: just build
+        run: nix develop --command "just build"
 
       - name: commit && push changes
         run: |
