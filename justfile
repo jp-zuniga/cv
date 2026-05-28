@@ -8,6 +8,9 @@ default:
 rename-and-move prefix:
     #!/usr/bin/env bash
 
+    mkdir -p assets/.tmp
+    mkdir -p assets/sources
+
     for file in assets/.tmp/*; do
         [ -e "$file" ] || continue
 
@@ -15,6 +18,8 @@ rename-and-move prefix:
 
         mv "$file" "assets/{{ prefix }}-$filename"
     done
+
+    mv assets/*.typ assets/sources/
 
 [private]
 render lang theme *args:
