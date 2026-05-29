@@ -181,7 +181,7 @@ Information Systems Engineering student with a focus on backend development. I'm
 
 #regular-entry(
   [
-    #strong[Artemis Devs]
+    #strong[Artemis Devs], Co-founder
 
   ],
   [
@@ -198,7 +198,7 @@ Information Systems Engineering student with a focus on backend development. I'm
 
 #regular-entry(
   [
-    #strong[Hackathon Nicaragua]
+    #strong[Hackathon Nicaragua], Backend Developer
 
   ],
   [
