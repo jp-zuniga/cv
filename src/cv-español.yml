@@ -33,10 +33,27 @@ cv:
       - company: Banco de Alimentos de Nicaragua
         position: Líder Técnico
         start_date: 2025-08
+        highlights:
+          - >
+            Lideré el desarrollo integral de un nuevo sistema automatizado
+            para reemplazar flujos de trabajo manuales, actuando como
+            analista de sistemas, desarrollador principal y líder de equipo.
+          - >
+            Traduje procesos operativos complejos en especificaciones técnicas,
+            diseñando la arquitectura del sistema y
+            el esquema central de la base de datos.
+          - >
+            Dirigí al equipo técnico, gestionando la delegación de tareas,
+            realizando revisiones de código y asegurando la
+            alineación con los objetivos del negocio.
+          - >
+            Desarrollé los componentes más críticos del backend y
+            establecí estándares de programación para garantizar
+            la escalabilidad y mantenibilidad del sistema.
 
       - company: Poder Capital
         position: Asistente de Soporte Técnico
-        location: Pasantía
+        location: "*Pasantía*"
         start_date: 2025-02
         end_date: 2025-08
         highlights:
@@ -44,10 +61,8 @@ cv:
             Apoyo al área de tecnología y soporte técnico,
             resolución de incidencias y atención a usuarios.
           - >
-            Destacando responsabilidad,
-            trabajo en equipo,
-            pensamiento analítico y
-            trato interpersonal profesional.
+            Destacando responsabilidad, trabajo en equipo,
+            pensamiento analítico y trato interpersonal profesional.
 
     proyectos:
       - position: Artemis Devs
@@ -65,12 +80,12 @@ cv:
         start_date: 2025-06
         end_date: 2025-11
         highlights:
-          - Desarrollo de un API con Django, DRF y PostgreSQL para una aplicación nutricional.
           - >
-            Implementación de
-            búsqueda avanzada de recetas,
-            recomendador por ingredientes,
-            RBAC y
+            Desarrollo de un API con Django, Django REST Framework y
+            PostgreSQL para una aplicación nutricional.
+          - >
+            Implementación de búsqueda avanzada de recetas,
+            recomendador por ingredientes, RBAC y
             autenticación con Google Sign-In.
 
     habilidades:

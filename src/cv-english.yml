@@ -31,10 +31,24 @@ cv:
       - company: Banco de Alimentos de Nicaragua
         position: Technical Lead
         start_date: 2025-08
+        highlights:
+          - >
+            Led the end-to-end development of a new automated system to
+            replace manual workflows, acting as the
+            systems analyst, lead developer, and team manager.
+          - >
+            Translated complex operational processes into technical specifications,
+            designing the system architecture and core database schema.
+          - >
+            Directed a technical team, facilitating task delegation, conducting
+            pull request reviews, and ensuring alignment with business objectives.
+          - >
+            Engineered the most critical backend components and established
+            coding standards to ensure system scalability and maintainability.
 
       - company: Poder Capital
         position: IT Assistant
-        location: Internship
+        location: "*Internship*"
         start_date: 2025-02
         end_date: 2025-08
         highlights:
@@ -42,11 +56,8 @@ cv:
             Provided support for the IT and tech-support area,
             handling incident resolution and user assistance.
           - >
-            Demonstrated
-            responsibility,
-            teamwork,
-            analytical thinking, and
-            professional interpersonal skills.
+            Demonstrated responsibility, teamwork,
+            analytical thinking, and professional interpersonal skills.
 
     projects:
       - name: Artemis Devs
@@ -64,13 +75,13 @@ cv:
         start_date: 2025-06
         end_date: 2025-11
         highlights:
-          - Developed an API using Django, DRF, and PostgreSQL for a nutritional app.
           - >
-            Implemented
-            advanced recipe search,
+            Developed an API using Django, Django REST Framework, and
+            PostgreSQL for a nutritional app.
+          - >
+            Implemented advanced recipe search,
             ingredient-based recommendations,
-            RBAC, and
-            Google Sign-In authentication.
+            RBAC, and Google Sign-In authentication.
 
     habilidades:
       - bullet: Fast and independent learner.
