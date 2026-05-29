@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 5,
-    day: 28,
+    day: 29,
   ),
 )
 
@@ -141,12 +141,26 @@ Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrol
 
   ],
   main-column-second-row: [
+    - Lideré el desarrollo integral de un nuevo sistema automatizado para reemplazar flujos de trabajo manuales, actuando como analista de sistemas, desarrollador principal y líder de equipo.
+
+    
+
+    - Traduje procesos operativos complejos en especificaciones técnicas, diseñando la arquitectura del sistema y el esquema central de la base de datos.
+
+    
+
+    - Dirigí al equipo técnico, gestionando la delegación de tareas, realizando revisiones de código y asegurando la alineación con los objetivos del negocio.
+
+    
+
+    - Desarrollé los componentes más críticos del backend y establecí estándares de programación para garantizar la escalabilidad y mantenibilidad del sistema.
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Asistente de Soporte Técnico], Poder Capital -- Pasantía
+    #strong[Asistente de Soporte Técnico], Poder Capital -- #emph[Pasantía]
 
   ],
   [
@@ -192,7 +206,9 @@ Estudiante de Ingeniería en Sistemas de Información con un enfoque en desarrol
 
   ],
   main-column-second-row: [
-    - Desarrollo de un API con Django, DRF y PostgreSQL para una aplicación nutricional.
+    - Desarrollo de un API con Django, Django REST Framework y PostgreSQL para una aplicación nutricional.
+
+    
 
     - Implementación de búsqueda avanzada de recetas, recomendador por ingredientes, RBAC y autenticación con Google Sign-In.
 

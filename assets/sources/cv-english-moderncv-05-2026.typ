@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 5,
-    day: 28,
+    day: 29,
   ),
 )
 
@@ -141,12 +141,26 @@ Information Systems Engineering student with a focus on backend development. I'm
 
   ],
   main-column-second-row: [
+    - Led the end-to-end development of a new automated system to replace manual workflows, acting as the systems analyst, lead developer, and team manager.
+
+    
+
+    - Translated complex operational processes into technical specifications, designing the system architecture and core database schema.
+
+    
+
+    - Directed a technical team, facilitating task delegation, conducting pull request reviews, and ensuring alignment with business objectives.
+
+    
+
+    - Engineered the most critical backend components and established coding standards to ensure system scalability and maintainability.
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[IT Assistant], Poder Capital -- Internship
+    #strong[IT Assistant], Poder Capital -- #emph[Internship]
 
   ],
   [
@@ -192,7 +206,9 @@ Information Systems Engineering student with a focus on backend development. I'm
 
   ],
   main-column-second-row: [
-    - Developed an API using Django, DRF, and PostgreSQL for a nutritional app.
+    - Developed an API using Django, Django REST Framework, and PostgreSQL for a nutritional app.
+
+    
 
     - Implemented advanced recipe search, ingredient-based recommendations, RBAC, and Google Sign-In authentication.
 
