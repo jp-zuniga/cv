@@ -58,10 +58,10 @@ cv:
         end_date: 2025-08
         highlights:
           - >
-            Apoyo al área de tecnología y soporte técnico,
+            Apoyé al área de tecnología y soporte técnico,
             resolución de incidencias y atención a usuarios.
           - >
-            Destacando responsabilidad, trabajo en equipo,
+            Desarrollé mis habilidades para trabajar en equipo,
             pensamiento analítico y trato interpersonal profesional.
 
     proyectos:
@@ -81,12 +81,12 @@ cv:
         end_date: 2025-11
         highlights:
           - >
-            Desarrollo de un API con Django, Django REST Framework y
+            Desarrollé un API con Django, Django REST Framework y
             PostgreSQL para una aplicación nutricional.
           - >
-            Implementación de búsqueda avanzada de recetas,
-            recomendador por ingredientes, RBAC y
-            autenticación con Google Sign-In.
+            Implementé una búsqueda avanzada de recetas,
+            un recomendador por ingredientes, un sistema RBAC y
+            autenticación con Google OAuth.
 
     habilidades:
       - bullet: Aprendiz rápido y autónomo.
