@@ -3,11 +3,11 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Joaquín Pérez",
-  title: "Joaquín Pérez - CV",
-  footer: context { [#emph[Joaquín Pérez -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in May 2026] ],
-  locale-catalog-language: "en",
+  name: "Joaquín Zúñiga",
+  title: "Joaquín Zúñiga - CV",
+  footer: context { [#emph[Joaquín Zúñiga -- #str(here().page())\/#str(counter(page).final().first())]] },
+  top-note: [ #emph[Última actualización: Nov 2026] ],
+  locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -80,13 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 29,
+    month: 11,
+    day: 25,
   ),
 )
 
 
-= Joaquín Pérez
+= Joaquín Zúñiga
+
+  #headline([Desarrollador Backend])
 
 #connections(
   [#link("mailto:jp.zuniga.dev@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[jp.zuniga.dev\@gmail.com]]],
@@ -96,140 +98,140 @@
 )
 
 
-== Summary
+== Sobre Mí
 
-Information Systems Engineering student with a focus on backend development. I'm passionate about creating innovative tools with an emphasis on the end-user experience. I like to thoroughly understand problems, explore new technologies, and learn independently through projects. I've worked in technical support and on complex software projects, strengthening my critical thinking, user communication, and teamwork skills.
+Estudiante de Ingeniería en Sistemas de Información y desarrollador backend, con experiencia diseñando y construyendo APIs en producción con Python, Django, FastAPI y PostgreSQL, desde el diseño de la base de datos y las reglas de negocio hasta las pruebas, CI\/CD y el despliegue. Me apasiona crear herramientas innovadoras, con énfasis en la experiencia del usuario final. Me gusta entender a fondo los problemas, explorar nuevas tecnologías y aprender de forma autónoma a través de proyectos. Liderar equipos de desarrollo y trabajar de cerca con usuarios finales ha fortalecido mi pensamiento crítico, mi comunicación y el trabajo en equipo.
 
 
-== Education
-
-#education-entry(
-  [
-    #strong[Universidad Americana], Information Systems Engineering
-
-  ],
-  [
-    2023 – present
-
-  ],
-  main-column-second-row: [
-  ],
-)
+== Educación
 
 #education-entry(
   [
-    #strong[Universal School Pierre et Marie Curie], High-School
+    #strong[Universidad Americana], Ingeniería en Sistemas de Información
 
   ],
   [
-    2020 – 2023
+    2023 – presente
 
   ],
   main-column-second-row: [
   ],
 )
 
-== Experience
+== Experiencia
 
 #regular-entry(
   [
-    #strong[Technical Lead], Banco de Alimentos de Nicaragua
+    #strong[Desarrollador Backend], #link("https://hartazone.com")[Hartazone]
 
   ],
   [
-    Aug 2025 – present
+    Jun 2026 – presente
 
   ],
   main-column-second-row: [
-    - Led the end-to-end development of a new automated system to replace manual workflows, acting as the systems analyst, lead developer, and team manager.
+    #summary[Construí el backend de una aplicación móvil donde comercios locales venden sus excedentes de comida a precio reducido. Los usuarios encuentran ofertas cercanas en un mapa, las reservan y las retiran en el local, mientras los comercios gestionan sus publicaciones diarias y reservas desde un portal web.]
 
     
 
-    - Translated complex operational processes into technical specifications, designing the system architecture and core database schema.
+    - Implementé reglas de negocio críticas a nivel de base de datos mediante triggers en PL\/pgSQL.
 
     
 
-    - Directed a technical team, facilitating task delegation, conducting pull request reviews, and ensuring alignment with business objectives.
+    - Desarrollé un API REST documentada con OpenAPI que abarca autenticación, perfiles de comercios, ofertas y reservas.
 
     
 
-    - Engineered the most critical backend components and established coding standards to ensure system scalability and maintainability.
+    - Establecí una suite de pruebas extensa, pipelines de CI y despliegues en contenedores con procesos en segundo plano.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[IT Assistant], Poder Capital -- #emph[Internship]
+    #strong[Desarrollador Junior], EZA Capital -- #emph[Pasantía]
 
   ],
   [
-    Feb 2025 – Aug 2025
+    Ago 2026 – Nov 2026
 
   ],
   main-column-second-row: [
-    - Provided support for the IT and tech-support area, handling incident resolution and user assistance.
+    #summary[Desarrollé funcionalidades para la plataforma interna de una institución de microfinanzas, construida con FastAPI, React y SQL Server.]
 
     
 
-    - Demonstrated responsibility, teamwork, analytical thinking, and professional interpersonal skills.
-
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[Artemis Devs], Co-founder
-
-  ],
-  [
-    Mar 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Coordinator of a pioneering university software development community.
-
-    - Responsible for organizing technical conferences, tutoring sessions, and fostering a culture of innovation and collaboration among students.
+    - Modernicé las herramientas del backend con un build de Docker multi-etapa, gestión de dependencias con uv, linting y formato estandarizados, y una suite de pruebas exhaustiva para minimizar regresiones.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Hackathon Nicaragua], Backend Developer
+    #strong[Líder Técnico], Banco de Alimentos de Nicaragua
 
   ],
   [
-    June 2025 – Nov 2025
+    Ago 2025 – Ago 2026
 
   ],
   main-column-second-row: [
-    - Developed an API using Django, Django REST Framework, and PostgreSQL for a nutritional app.
+    #summary[Lideré el desarrollo integral de un nuevo sistema automatizado para reemplazar flujos de trabajo manuales, actuando como analista de sistemas, desarrollador principal y líder de equipo.]
 
     
 
-    - Implemented advanced recipe search, ingredient-based recommendations, RBAC, and Google Sign-In authentication.
+    - Traduje procesos operativos complejos en especificaciones técnicas, diseñando la arquitectura del sistema y el esquema central de la base de datos.
 
+    
+
+    - Desarrollé componentes críticos del backend y establecí estándares de programación para garantizar la escalabilidad y mantenibilidad del sistema.
+
+  ],
+)
+
+== Proyectos
+
+#regular-entry(
+  [
+    #strong[NASA Space Apps Challenge], #link("https://mangroove.earth")[Mangroove] -- #emph[Nominado Global]
+
+  ],
+  [
+    Nov 2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Hackathon Nicaragua], #link("https://kplan.dev")[K'Plan]
+
+  ],
+  [
+    Jun 2026 – Oct 2026
+
+  ],
+  main-column-second-row: [
   ],
 )
 
 == Habilidades
 
-- Fast and independent learner.
+- Aprendiz rápido y autónomo.
 
-- Versatile problem solver.
+- Pensador crítico y creativo.
 
-- Critical and creative thinker.
+- Capacidad versátil para resolver problemas.
 
 == Idiomas
 
-- Spanish
+- Español
 
-- English #strong[(C2)]
+- Inglés #strong[(C2)]
 
-- French #strong[(B2)]
+- Francés #strong[(B2)]
 
 == Lenguajes De Programación
 
@@ -244,5 +246,3 @@ Information Systems Engineering student with a focus on backend development. I'm
 - Rust
 
 - SQL
-
-- Nix

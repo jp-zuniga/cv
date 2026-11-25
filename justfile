@@ -1,28 +1,25 @@
 set quiet
 
 [private]
-rename-and-move prefix:
-    #!/usr/bin/env bash
-
-    mkdir -p assets/.tmp
-    mkdir -p assets/sources
-
-    for file in assets/.tmp/*; do
-        [ -e "$file" ] || continue
-
-        filename=$(basename "$file")
-
-        mv "$file" "assets/{{ prefix }}-$filename"
-    done
-
-    mv assets/*.typ assets/sources/
+default:
+    @just --list --list-heading "" --list-prefix ""
 
 [private]
 render lang theme *args:
     #!/usr/bin/env bash
 
     rendercv render src/cv-{{ lang }}.yml -s src/settings.yml --design.theme {{ theme }} {{ args }}
-    just rename-and-move "cv-{{ lang }}-{{ theme }}"
+
+    mkdir -p assets/.tmp
+    mkdir -p assets/sources
+
+    for file in assets/.tmp/*; do
+      [ -e "$file" ] || continue
+
+      mv "$file" "assets/cv-{{ lang }}-$(basename "$file")"
+    done
+
+    mv assets/*.typ assets/sources/
 
 build theme="moderncv" *args="":
     @just render english {{ theme }} {{ args }}

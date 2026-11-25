@@ -1,5 +1,6 @@
 cv:
-  name: Joaquín Pérez
+  name: Joaquín Zúñiga
+  headline: Desarrollador Backend
   email: jp.zuniga.dev@gmail.com
   phone: "+505 8499-5169"
   social_networks:
@@ -11,87 +12,87 @@ cv:
   sections:
     sobre_mí:
       - >
-        Estudiante de Ingeniería en Sistemas de Información con
-        un enfoque en desarrollo backend. Me apasiona crear herramientas innovadoras,
-        con énfasis en la experiencia del usuario final. Me gusta entender a fondo
-        los problemas, explorar nuevas tecnologías y aprender de forma autónoma
-        a través de proyectos. He trabajado en soporte técnico y en proyectos
-        de software complejos, fortaleciendo mi pensamiento crítico,
-        la comunicación con usuarios y el trabajo en equipo.
+        Estudiante de Ingeniería en Sistemas de Información y desarrollador backend,
+        con experiencia diseñando y construyendo APIs en producción con Python,
+        Django, FastAPI y PostgreSQL, desde el diseño de la base de datos y las
+        reglas de negocio hasta las pruebas, CI/CD y el despliegue. Me apasiona
+        crear herramientas innovadoras, con énfasis en la experiencia del usuario
+        final. Me gusta entender a fondo los problemas, explorar nuevas tecnologías
+        y aprender de forma autónoma a través de proyectos. Liderar equipos de
+        desarrollo y trabajar de cerca con usuarios finales ha fortalecido mi
+        pensamiento crítico, mi comunicación y el trabajo en equipo.
 
     educación:
       - institution: Universidad Americana
         area: Ingeniería en Sistemas de Información
         start_date: 2023
 
-      - institution: Universal School Pierre et Marie Curie
-        area: Secundaria
-        start_date: 2020
-        end_date: 2023
-
     experiencia:
+      - company: "[Hartazone](https://hartazone.com)"
+        position: Desarrollador Backend
+        start_date: 2026-06
+        summary: >
+                 Construí el backend de una aplicación móvil donde comercios locales
+                 venden sus excedentes de comida a precio reducido. Los usuarios
+                 encuentran ofertas cercanas en un mapa, las reservan y las retiran
+                 en el local, mientras los comercios gestionan sus publicaciones
+                 diarias y reservas desde un portal web.
+        highlights:
+          - >
+            Implementé reglas de negocio críticas a nivel de base de datos
+            mediante triggers en PL/pgSQL.
+          - >
+            Desarrollé un API REST documentada con OpenAPI que abarca autenticación,
+            perfiles de comercios, ofertas y reservas.
+          - >
+            Establecí una suite de pruebas extensa, pipelines de CI
+            y despliegues en contenedores con procesos en segundo plano.
+
+      - company: EZA Capital
+        position: Desarrollador Junior
+        location: "*Pasantía*"
+        start_date: 2026-08
+        end_date: 2026-11
+        summary: >
+                 Desarrollé funcionalidades para la plataforma interna de una institución
+                 de microfinanzas, construida con FastAPI, React y SQL Server.
+        highlights:
+          - >
+            Modernicé las herramientas del backend con un build de Docker multi-etapa,
+            gestión de dependencias con uv, linting y formato estandarizados,
+            y una suite de pruebas exhaustiva para minimizar regresiones.
+
       - company: Banco de Alimentos de Nicaragua
         position: Líder Técnico
         start_date: 2025-08
+        end_date: 2026-08
+        summary: >
+                 Lideré el desarrollo integral de un nuevo sistema automatizado
+                 para reemplazar flujos de trabajo manuales, actuando como
+                 analista de sistemas, desarrollador principal y líder de equipo.
         highlights:
           - >
-            Lideré el desarrollo integral de un nuevo sistema automatizado
-            para reemplazar flujos de trabajo manuales, actuando como
-            analista de sistemas, desarrollador principal y líder de equipo.
+            Traduje procesos operativos complejos en especificaciones técnicas, diseñando
+            la arquitectura del sistema y el esquema central de la base de datos.
           - >
-            Traduje procesos operativos complejos en especificaciones técnicas,
-            diseñando la arquitectura del sistema y
-            el esquema central de la base de datos.
-          - >
-            Dirigí al equipo técnico, gestionando la delegación de tareas,
-            realizando revisiones de código y asegurando la
-            alineación con los objetivos del negocio.
-          - >
-            Desarrollé los componentes más críticos del backend y
-            establecí estándares de programación para garantizar
-            la escalabilidad y mantenibilidad del sistema.
-
-      - company: Poder Capital
-        position: Asistente de Soporte Técnico
-        location: "*Pasantía*"
-        start_date: 2025-02
-        end_date: 2025-08
-        highlights:
-          - >
-            Apoyé al área de tecnología y soporte técnico,
-            resolución de incidencias y atención a usuarios.
-          - >
-            Desarrollé mis habilidades para trabajar en equipo,
-            pensamiento analítico y trato interpersonal profesional.
+            Desarrollé componentes críticos del backend y establecí estándares de
+            programación para garantizar la escalabilidad y mantenibilidad del sistema.
 
     proyectos:
-      - position: Artemis Devs
-        company: Cofundador
-        start_date: 2024-03
-        highlights:
-          - Coordinador de una comunidad universitaria pionera de desarrollo de software.
-          - >
-            Responsable por la organización de conferencias técnicas,
-            sesiones de tutoría y promoción de una cultura de innovación
-            y colaboración entre estudiantes.
+      - position: NASA Space Apps Challenge
+        company: "[Mangroove](https://mangroove.earth)"
+        location: "*Nominado Global*"
+        date: 2026-11
 
       - position: Hackathon Nicaragua
-        company: Desarrollador Backend
-        start_date: 2025-06
-        end_date: 2025-11
-        highlights:
-          - >
-            Desarrollé un API con Django, Django REST Framework y
-            PostgreSQL para una aplicación nutricional.
-          - >
-            Implementé una búsqueda avanzada de recetas,
-            un recomendador por ingredientes, un sistema RBAC y
-            autenticación con Google OAuth.
+        company: "[K'Plan](https://kplan.dev)"
+        start_date: 2026-06
+        end_date: 2026-10
 
     habilidades:
       - bullet: Aprendiz rápido y autónomo.
-      - bullet: Capacidad versátil para resolver problemas.
       - bullet: Pensador crítico y creativo.
+      - bullet: Capacidad versátil para resolver problemas.
 
     idiomas:
       - bullet: Español
@@ -105,7 +106,6 @@ cv:
       - bullet: C++
       - bullet: Rust
       - bullet: SQL
-      - bullet: Nix
 
 locale:
   language: spanish

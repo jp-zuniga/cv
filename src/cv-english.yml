@@ -1,5 +1,6 @@
 cv:
-  name: Joaquín Pérez
+  name: Joaquín Zúñiga
+  headline: Backend Developer
   email: jp.zuniga.dev@gmail.com
   phone: "+505 8499-5169"
   social_networks:
@@ -11,96 +12,100 @@ cv:
   sections:
     summary:
       - >
-        Information Systems Engineering student with a focus on backend development.
-        I'm passionate about creating innovative tools with an emphasis
-        on the end-user experience. I like to thoroughly understand problems,
-        explore new technologies, and learn independently through projects.
-        I've worked in technical support and on complex software projects,
-        strengthening my critical thinking, user communication, and teamwork skills.
+        Information Systems Engineering student and backend developer,
+        experienced in designing and building production APIs with Python,
+        Django, FastAPI, and PostgreSQL, from database design and business rules
+        to testing, CI/CD, and deployment. I'm passionate about creating
+        innovative tools with an emphasis on the end-user experience. I like to
+        thoroughly understand problems, explore new technologies, and learn
+        independently through projects. Leading development teams and working
+        closely with end users has strengthened my critical thinking,
+        communication, and teamwork skills.
 
     education:
       - institution: Universidad Americana
         area: Information Systems Engineering
         start_date: 2023
-      - institution: Universal School Pierre et Marie Curie
-        area: High-School
-        start_date: 2020
-        end_date: 2023
 
     experience:
+      - company: "[Hartazone](https://hartazone.com)"
+        position: Lead Backend Developer
+        start_date: 2026-06
+        summary: >
+                 Built the backend for a mobile app where local businesses sell their
+                 surplus food at a discount: users find nearby offers on a map, reserve
+                 them, and pick them up in store, while businesses manage their daily
+                 offers and reservations through a web portal.
+        highlights:
+          - >
+            Enforced critical business rules at
+            the database level with PL/pgSQL triggers.
+          - >
+            Built an OpenAPI-documented REST API covering authentication,
+            business profiles, offers, and reservations.
+          - >
+            Established an extensive test suite, CI pipelines,
+            and containerized deployments with background workers.
+
+      - company: EZA Capital
+        position: Junior Developer
+        location: "*Internship*"
+        start_date: 2026-08
+        end_date: 2026-11
+        summary: >
+                 Developed features for a microfinance institution's internal
+                 platform, built with FastAPI, React, and SQL Server.
+        highlights:
+          - >
+            Modernized the backend's tooling with a multi-stage Docker build,
+            dependency management using uv, standardized linting and formatting,
+            and built an exhaustive test suite to minimize regressions.
+
       - company: Banco de Alimentos de Nicaragua
         position: Technical Lead
         start_date: 2025-08
+        end_date: 2026-08
+        summary: >
+                 Led the end-to-end development of a new automated system to
+                 replace manual workflows, acting as the
+                 systems analyst, lead developer, and team manager.
         highlights:
-          - >
-            Led the end-to-end development of a new automated system to
-            replace manual workflows, acting as the
-            systems analyst, lead developer, and team manager.
           - >
             Translated complex operational processes into technical specifications,
             designing the system architecture and core database schema.
           - >
-            Directed a technical team, facilitating task delegation, conducting
-            pull request reviews, and ensuring alignment with business objectives.
-          - >
-            Engineered the most critical backend components and established
+            Engineered critical backend components and established
             coding standards to ensure system scalability and maintainability.
 
-      - company: Poder Capital
-        position: IT Assistant
-        location: "*Internship*"
-        start_date: 2025-02
-        end_date: 2025-08
-        highlights:
-          - >
-            Provided support for the IT and tech-support area,
-            handling incident resolution and user assistance.
-          - >
-            Demonstrated responsibility, teamwork,
-            analytical thinking, and professional interpersonal skills.
-
     projects:
-      - position: Artemis Devs
-        company: Co-founder
-        start_date: 2024-03
-        highlights:
-          - Coordinator of a pioneering university software development community.
-          - >
-            Responsible for organizing technical conferences,
-            tutoring sessions, and fostering a culture of innovation
-            and collaboration among students.
+      - position: NASA Space Apps Challenge
+        company: "[Mangroove](https://mangroove.earth)"
+        location: "*Global Nominee*"
+        date: 2026-11
 
       - position: Hackathon Nicaragua
-        company: Backend Developer
-        start_date: 2025-06
-        end_date: 2025-11
-        highlights:
-          - >
-            Developed an API using Django, Django REST Framework, and
-            PostgreSQL for a nutritional app.
-          - >
-            Implemented advanced recipe search,
-            ingredient-based recommendations,
-            RBAC, and Google Sign-In authentication.
+        company: "[K'Plan](https://kplan.dev)"
+        start_date: 2026-06
+        end_date: 2026-10
 
-    habilidades:
+    skills:
       - bullet: Fast and independent learner.
-      - bullet: Versatile problem solver.
       - bullet: Critical and creative thinker.
+      - bullet: Versatile problem solver.
 
-    idiomas:
+    languages:
       - bullet: Spanish
       - bullet: English **(C2)**
       - bullet: French **(B2)**
 
-    lenguajes_de_programación:
+    programming_languages:
       - bullet: Python
       - bullet: Java
       - bullet: C#
       - bullet: C++
       - bullet: Rust
       - bullet: SQL
-      - bullet: Nix
 
 locale:
   language: english
+  last_updated: "Last updated:"

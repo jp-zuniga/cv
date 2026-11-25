@@ -6,8 +6,8 @@ settings:
     dont_generate_typst: false
     dont_generate_png: true
 
-    html_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.html
-    markdown_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.md
-    pdf_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.pdf
-    png_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.png
-    typst_path: ../assets/.tmp/MONTH_IN_TWO_DIGITS-YEAR.typ
+    html_path: ../assets/.tmp/NAME_IN_LOWER_KEBAB_CASE-MONTH_IN_TWO_DIGITS-YEAR.html
+    markdown_path: ../assets/.tmp/NAME_IN_LOWER_KEBAB_CASE-MONTH_IN_TWO_DIGITS-YEAR.md
+    pdf_path: ../assets/.tmp/NAME_IN_LOWER_KEBAB_CASE-MONTH_IN_TWO_DIGITS-YEAR.pdf
+    png_path: ../assets/.tmp/NAME_IN_LOWER_KEBAB_CASE-MONTH_IN_TWO_DIGITS-YEAR.png
+    typst_path: ../assets/.tmp/NAME_IN_LOWER_KEBAB_CASE-MONTH_IN_TWO_DIGITS-YEAR.typ
