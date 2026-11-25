@@ -1,9 +1,6 @@
 name: build
 
 on:
-  push:
-    paths:
-      - "src/*.yml"
   workflow_dispatch:
 
 permissions:
